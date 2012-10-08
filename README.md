@@ -21,7 +21,7 @@ Example App
 
 It's important to notice that the second parameter of getContext is mandatory so TypeScript can figure out that you want a WebGLContext and not a Canvas2DContext. 
 
-
+This is a free library under the MIT license. I would love to hear from you when you use this lib :) 
 
 LICENSE
 =======
