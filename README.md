@@ -6,16 +6,18 @@ A WebGL definition file for TypeScript. Generated with help of my own IDL export
 Example App
 
 
-	  ///<reference path="webgl.d.ts" />
+	///<reference path="webgl.d.ts" />
 
-	  window.onload = () => { 
-	  	var canvas : any = document.createElement("canvas"); 
-  		document.body.appendChild(canvas); 
-  		var gl = <WebGLRenderingContext> canvas.getContext("experimental-webgl"); 
+	window.onload = () => { 
+		var canvas = <HTMLCanvasElement> document.createElement("canvas"); 
+		document.body.appendChild(canvas); 
 
- 	 	gl.clearColor(1,0,0,1);
-  		gl.clear(gl.COLOR_BUFFER_BIT); 
-	  }
+		var context : any = canvas.getContext("experimental-webgl"); 
+		var gl = <WebGLRenderingContext> context; 
+
+		gl.clearColor(1,0,0,1);
+		gl.clear(gl.COLOR_BUFFER_BIT); 
+	}
 
 
 
