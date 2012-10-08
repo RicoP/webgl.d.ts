@@ -1,20 +1,22 @@
 webgl.d.ts
 ==========
 
-A WebGL definition file for TypeScript. Generated with help of my own IDL exporttool (idl2typings)[https://github.com/RicoP/idl2typings].
+A WebGL definition file for TypeScript. Generated with help of my own IDL exporttool [https://github.com/RicoP/idl2typings](idl2typings).
 
 Example App
 
-  ///<reference path="webgl.d.ts" />
 
-  window.onload = () => { 
-  	var canvas : any = document.createElement("canvas"); 
-  	document.body.appendChild(canvas); 
-  	var gl = <WebGLRenderingContext> canvas.getContext("experimental-webgl"); 
+	  ///<reference path="webgl.d.ts" />
 
-  	gl.clearColor(1,0,0,1);
-  	gl.clear(gl.COLOR_BUFFER_BIT); 
-  }
+	  window.onload = () => { 
+	  	var canvas : any = document.createElement("canvas"); 
+  		document.body.appendChild(canvas); 
+  		var gl = <WebGLRenderingContext> canvas.getContext("experimental-webgl"); 
+
+ 	 	gl.clearColor(1,0,0,1);
+  		gl.clear(gl.COLOR_BUFFER_BIT); 
+	  }
+
 
 
 LICENSE
