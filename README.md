@@ -1,7 +1,7 @@
 webgl.d.ts
 ==========
 
-A WebGL definition file for TypeScript. Generated with help of my own IDL exporttool [https://github.com/RicoP/idl2typings](idl2typings).
+A WebGL definition file for TypeScript. Generated with help of my own IDL exporttool [idl2typings](https://github.com/RicoP/idl2typings).
 
 Example App
 
