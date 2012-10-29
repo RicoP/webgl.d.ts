@@ -7,27 +7,35 @@ interface WebGLContextAttributes {
 }
 
 interface WebGLObject {
+	$__dummyprop__WebGLObject : any;
 }
 
 interface WebGLBuffer extends WebGLObject {
+	$__dummyprop__WebGLBuffer : any;
 }
 
 interface WebGLFramebuffer extends WebGLObject {
+	$__dummyprop__WebGLFramebuffer : any;
 }
 
 interface WebGLProgram extends WebGLObject {
+	$__dummyprop__WebGLProgram : any;
 }
 
 interface WebGLRenderbuffer extends WebGLObject {
+	$__dummyprop__WebGLRenderbuffer : any;
 }
 
 interface WebGLShader extends WebGLObject {
+	$__dummyprop__WebGLShader : any;
 }
 
 interface WebGLTexture extends WebGLObject {
+	$__dummyprop__WebGLTexture : any;
 }
 
 interface WebGLUniformLocation {
+	$__dummyprop__WebGLUniformLocation : any;
 }
 
 interface WebGLActiveInfo {
